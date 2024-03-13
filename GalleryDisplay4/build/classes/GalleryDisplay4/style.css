@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+}
+
+.grid-pane {
+    -fx-background-color: green;
+}
+
+.thumbnail {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s;
+}
+
+.thumbnail:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.fullImageView {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 20, 0, 0, 0);
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-transition: all 0.3s;
+}
+
+.returnButton {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-transition: all 0.3s;
+}
+
+.returnButton:hover {
+    -fx-background-color: blue;
+}
